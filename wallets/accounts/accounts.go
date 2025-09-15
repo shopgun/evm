@@ -19,6 +19,7 @@ type Account struct {
 // accounts (derived from the same seed).
 type Wallet interface {
 	// URL retrieves the canonical path under which this wallet is reachable. It is
+	// a test
 	// used by upper layers to define a sorting order over all wallets from multiple
 	// backends.
 	URL() gethaccounts.URL
