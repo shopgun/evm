@@ -10,6 +10,7 @@ import (
 
 // Account represents an Ethereum account located at a specific location defined
 // by the optional URL field.
+// test 02
 type Account struct {
 	Address   common.Address   `json:"address"`   // Ethereum account address derived from the key
 	PublicKey *ecdsa.PublicKey `json:"publicKey"` // Public key corresponding to the account address
