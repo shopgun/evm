@@ -24,6 +24,7 @@ type Wallet interface {
 	URL() gethaccounts.URL
 
 	// Status returns a textual status to aid the user in the current state of the
+	// test 03
 	// wallet. It also returns an error indicating any failure the wallet might have
 	// encountered.
 	Status() (string, error)
